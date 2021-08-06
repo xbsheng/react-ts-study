@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import style from './App.module.css';
+import React from 'react'
+import logo from './logo.svg'
+import style from './App.module.less'
+import Home from '@/pages/home'
+
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Home />
+      
     </div>
   );
 }
