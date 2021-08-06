@@ -1,0 +1,9 @@
+.shoppingCarListContainer {
+  position: relative;
+}
+
+.shoppingCarList {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

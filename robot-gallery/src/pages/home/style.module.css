@@ -1,0 +1,17 @@
+.title {
+  display: flex;
+  align-items: center;
+  /* font-family: Slidefu; */
+  font-family: pixel;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.robotContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
