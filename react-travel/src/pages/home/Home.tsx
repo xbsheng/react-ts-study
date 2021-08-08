@@ -9,12 +9,14 @@ import sideImage2 from '@/assets/images/sider_2019_02-04.png'
 import sideImage3 from '@/assets/images/sider_2019_02-04-2.png'
 
 import style from './style.module.less';
+import { useTranslation } from 'react-i18next'
 
 interface Props {
-  
+
 }
 
 export const Home = (props: Props) => {
+  const { t } = useTranslation()
   return (
     <Layout >
       <Header />
@@ -31,7 +33,8 @@ export const Home = (props: Props) => {
         <ProductCollection
           title={
             <Typography.Title level={3} type="warning">
-              爆款推荐
+              {/* 爆款推荐 */}
+              {t('home_page.hot_recommended')}
             </Typography.Title>
           }
           sideImage={sideImage}
@@ -40,7 +43,8 @@ export const Home = (props: Props) => {
         <ProductCollection
           title={
             <Typography.Title level={3} type="danger">
-              新品上市
+              {/* 新品上市 */}
+              {t('home_page.new_arrival')}
             </Typography.Title>
           }
           sideImage={sideImage2}
@@ -49,7 +53,8 @@ export const Home = (props: Props) => {
         <ProductCollection
           title={
             <Typography.Title level={3} type="success">
-              国内游推荐
+              {/* 国内游推荐 */}
+              {t('home_page.domestic_travel')}
             </Typography.Title>
           }
           sideImage={sideImage3}
