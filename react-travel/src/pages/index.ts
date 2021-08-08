@@ -1,0 +1,5 @@
+export * from './home/Home'
+export * from './login/Login'
+export * from './register/Register'
+export * from './404/404'
+export * from './detail/Detail'

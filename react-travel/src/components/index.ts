@@ -1,0 +1,5 @@
+export * from './header/Header'
+export * from './footer/Footer'
+export * from './sideMenu/SideMenu'
+export * from './carousel/Carousel'
+export * from './productCollection/ProductCollection'
